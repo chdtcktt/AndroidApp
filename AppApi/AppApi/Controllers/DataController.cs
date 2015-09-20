@@ -31,6 +31,8 @@ namespace AppApi.Controllers
         // PUT api/<controller>/5
         public void Put(int id, [FromBody]string value)
         {
+            
+            var myValue1 = "hey yall";
         }
 
         // DELETE api/<controller>/5
