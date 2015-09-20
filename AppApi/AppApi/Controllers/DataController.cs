@@ -25,6 +25,7 @@ namespace AppApi.Controllers
         public void Post([FromBody]string value)
         {
             var item = value;
+            var things = 1;
         }
 
         // PUT api/<controller>/5
